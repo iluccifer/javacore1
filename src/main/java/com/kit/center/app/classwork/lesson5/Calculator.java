@@ -1,10 +1,21 @@
 package com.kit.center.app.classwork.lesson5;
 
-/**
- * Created by Лена on 03.05.2017.
- */
+
+
 public class Calculator {
-    public int substract(int numberOne, int numberTwo){
-        return numberOne - numberTwo;
+    public double sum(double numberOne, double numberTwo) {
+        double result = numberOne + numberTwo;
+        return result;
     }
+
+    public double substract(double numberOne, double numberTwo) {
+        double result = numberOne - numberTwo;
+        return result;
+    }
+
+    public double divicion(double numberOne, double numberTwo) {
+        double result = numberOne * numberTwo;
+        return result;
+    }
+
 }
