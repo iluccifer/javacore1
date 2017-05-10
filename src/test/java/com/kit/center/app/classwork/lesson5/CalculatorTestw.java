@@ -1,7 +1,9 @@
 package com.kit.center.app.classwork.lesson5;
 
 import org.junit.*;
+import org.junit.runners.MethodSorters;
 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class CalculatorTestw {
 
 
@@ -17,7 +19,7 @@ public class CalculatorTestw {
     }
 
     @Test
-    public void divicionTest1() {
+    public void bTest1() {
         double expectedResult = 189;
         Calculator calculator = new Calculator();
         double actualResult = calculator.divicion(378, 2);
@@ -25,14 +27,14 @@ public class CalculatorTestw {
     }
 
     @Test
-    public void divicionTest2() {
+    public void aTest2() {
         double expectedResult = 2;
         Calculator calculator = new Calculator();
         double actualResult = calculator.divicion(5, 2.5);
         Assert.assertEquals(expectedResult, actualResult, 0.0);
     }
 
-    @Test
+    /*@Test
     public void divicionTest3() {
         double expectedResult = -49;
         Calculator calculator = new Calculator();
@@ -63,4 +65,5 @@ public class CalculatorTestw {
         double actualResult = calculator.divicion(985, 0);
         Assert.assertEquals(expectedResult, actualResult, 0.0);
     }
+    */
 }
