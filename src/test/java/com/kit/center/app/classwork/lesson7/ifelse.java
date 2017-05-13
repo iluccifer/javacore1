@@ -1,7 +1,7 @@
 
 public class ifelse {
 public static void main(String[] args) {
-        String number = "123456789";
+        String number = "1234567890";
         int counter = evenCounter(number);
         int summ = oddSum(number);
 
