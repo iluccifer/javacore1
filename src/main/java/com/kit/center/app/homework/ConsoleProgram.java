@@ -26,3 +26,4 @@ public class ConsoleProgram {
             }else{System.out.print("Вы ввели не целое число");}
         }
     }
+}
