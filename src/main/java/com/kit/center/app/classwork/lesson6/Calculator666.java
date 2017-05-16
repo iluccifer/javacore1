@@ -7,6 +7,7 @@ public class Calculator666 {
 
     public static void calculate() {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите любое число");
         int result = scanner.nextInt()%2;
         System.out.println(result);
         if (result == 0) {
