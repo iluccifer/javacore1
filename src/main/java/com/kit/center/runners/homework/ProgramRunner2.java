@@ -10,7 +10,7 @@ public class ProgramRunner2  {
 
         switch (number) {
             case 1:
-                System.out.println("Вы ввели число 1");
+                System.out.println("Вы ввели число  \t \b \n \r \' \" \\ 1");
                 break;
             case 2:
                 System.out.println("Вы ввели число 2");
