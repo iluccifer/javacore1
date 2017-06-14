@@ -14,6 +14,8 @@ public class BycycleRunner {
         changeGear(bma,20);
         changeGear (acme,40);
         shift(bmn);
+        System.out.println(Bicycle.PI);
+
 
 
     }
