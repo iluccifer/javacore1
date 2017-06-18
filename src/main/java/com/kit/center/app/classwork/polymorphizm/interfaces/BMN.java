@@ -6,7 +6,6 @@ public class BMN implements  Bicycle {
 
     @Override
     public void changeGear(int value) {
-
     }
 
     @Override
