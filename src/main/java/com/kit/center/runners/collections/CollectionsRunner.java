@@ -11,7 +11,7 @@ public class CollectionsRunner {
         String abc3 = "abc3";
         ArrayList<String> arrayList = new ArrayList<>();
         arrayList.add(abc);
-        arrayList.add(0,abc2);
+        arrayList.add(4,abc2);
         arrayList.remove(abc3);
         arrayList.get(1);
         boolean contain = arrayList.contains(abc);
